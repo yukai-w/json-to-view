@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 主题 */
+body.black-theme {
+  background-color: #242426;
+}
+body.white-theme {
+  background-color: #fff;
+}
+body.white-theme .add_box {
+  background-color: #fff;
+}
+body.white-theme .add_tag_title > span {
+  color: #000;
+}
+body.white-theme .add_card {
+  background-color: #fff;
+}
+body.white-theme .add_card span {
+  color: #000;
+}
+body.white-theme .add_card a {
+  color: #000;
+}
+
+
+/* 导航 */
+.add_nav {
+  width: 30px;
+  position: fixed;
+  top: 118px;
+}
+.add_box {
+  width: 100%;
+  height: 78px;
+  background-color: #000;
+}
+
+.add_container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.add_card_box {
+  width: 800px;
+  font-size: 0;
+}
+
+.add_card_box li {
+  /* float: left; */
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.add_tag_title {
+  margin: 20px 10px;
+}
+/* 类别标题 */
+.add_tag_title > span {
+  font-size: 20px;
+  color: #BEBFCC;
+}
+
+.add_tag_box {
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+/* 卡片样式 */
+.add_card {
+  width: 116px;
+  height: 46px;
+  padding: 16px 32px;
+  background-color: #202021;
+  border-radius: 2px;
+}
+/* 网址描述 */
+.add_card span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #53545C;
+}
+/* 网址标题 */
+.add_card a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #787980;
+}
